@@ -264,7 +264,8 @@ foreach my $mirror (@ARGV) {
 
 #push @mirrors, 'https://sources.cdn.openwrt.org';
 push @mirrors, 'https://sources.openwrt.org';
-push @mirrors, 'https://mirror2.openwrt.org/sources';
+push @mirrors, 'https://sources.immortalwrt.org';
+push @mirrors, 'https://osdn.net/projects/immortalwrt/storage/sources';
 
 while (!-f "$target/$filename") {
 	my $mirror = shift @mirrors;
