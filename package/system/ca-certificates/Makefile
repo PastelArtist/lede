@@ -12,9 +12,9 @@ PKG_RELEASE:=1
 PKG_MAINTAINER:=
 
 PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=http://ftp.debian.org/debian/pool/main/c/ca-certificates
+PKG_SOURCE_URL:=https://ftp.debian.org/debian/pool/main/c/ca-certificates
 PKG_HASH:=2ae9b6dc5f40c25d6d7fe55e07b54f12a8967d1955d3b7b2f42ee46266eeef88
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
+PKG_BUILD_DIR:=$(BUILD_DIR)/work
 
 PKG_INSTALL:=1
 
