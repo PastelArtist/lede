@@ -76,4 +76,3 @@ config config
 	list udp_local '0.0.0.0:5053'
 	list udp_local '[::0]:5053'
 	option domain_statistic 'false'
-
